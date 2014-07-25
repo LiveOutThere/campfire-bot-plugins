@@ -1,0 +1,20 @@
+development:
+ site: liveoutthereinc 
+ use_ssl: true
+ rooms:
+ - Aconcagua Room
+ enable_plugins: 
+production:
+ nickname: Mongo
+ fullname: Mongo
+ site: liveoutthereinc
+ use_ssl: true
+ rooms:
+ - Aconcagua Room
+ username: replace_with_your_campfire_user_name
+ api_key: replace_with_your_campfire_api_key
+ pivotal_tracker_api_key: replace_with_your_pivotal_tracker_api_key
+ pivotal_tracker_default_project: replace_with_a_pivotal_tracker_project_id
+ nickname: LOT Bot
+ enable_plugins: 
+     - pivotaltrackerplugin
